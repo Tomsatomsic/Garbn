@@ -15,10 +15,16 @@ var score = 0;
 
 var block = getElementById('block')
 
-        var stone = getElementById('stone')
+        var stoner = getElementById('stoner')
         
 
 function addToScore(amount){
     score = score + amount;
     document.getElementById('score').innerHTML = score;
+}
+
+function nextBlock(){
+    if (score==50)
+    stoner.style.display = 'flex';
+block.style.display = 'none';
 }
