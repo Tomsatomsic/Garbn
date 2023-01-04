@@ -8,15 +8,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./res/img/garden3.jpg');
+    background-image: url("./res/img/garden1.jpg");
     background-position: center;
     background-size: cover;
     background-color: darkolivegreen;
+    user-select: none;
 }
 .back-frem{
     width: 18rem;
     height: 6rem;
-    background:darkolivegreen;
+    background-image:url("./res/img/garden1.jpg");
     border-radius: 23px;
     position: fixed;
     bottom: 10px;
@@ -56,14 +57,16 @@ body{
     width:70px;
     background-color:grey;
    position:absolute;
-   left:900px;
+   left:845px;
    top:800px;
+   width:200px;
+   height:50px;
 }
 
 p{
     border-style:solid;
     border-color:black;
-    width:200px;
+    width:240px;
     height:50px;
 background-color:lightgreen;
 position:absolute;
