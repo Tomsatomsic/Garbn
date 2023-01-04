@@ -37,15 +37,7 @@ body{
     object-fit: cover;
     background:no-repeat;
 }
-.upgrade{
-    border-color:blue;
-    border-style:solid;
-    width:70px;
-    height:50px;
-    position:relative;
-    top:0px;
-    left:0px;
-}
+
 
 #score{
     font-size:20px;
@@ -95,4 +87,9 @@ h1{
     height:300px;
     width:500px;
     left:650px;
+}
+
+#block{
+    height:500px;
+    width:500px;
 }
