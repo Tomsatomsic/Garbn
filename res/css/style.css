@@ -37,6 +37,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background:no-repeat;
 }
 .upgrade{
     border-color:blue;
@@ -87,4 +88,13 @@ h1{
     width:600px;
     height:400px;
     display:none;
+    position:absolute;
+    left:700px;
+}
+#wooden{
+    display:none;
+    position:absolute;
+    height:300px;
+    width:500px;
+    left:650px;
 }
