@@ -8,16 +8,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./res/img/garden1.jpg");
+    background: url(../img/garden1.jpg);
     background-position: center;
     background-size: cover;
-    background-color: darkolivegreen;
     user-select: none;
 }
 .back-frem{
     width: 18rem;
     height: 6rem;
-    background-image:url("./res/img/garden1.jpg");
     border-radius: 23px;
     position: fixed;
     bottom: 10px;
