@@ -1,2 +1,2 @@
 # Garbn
-[PLAY] (https://Tomsatomsic.github.io/Garbn/)
+[PLAY](https://Tomsatomsic.github.io/Garbn/)
