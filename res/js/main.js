@@ -13,9 +13,9 @@ function background3() {
 
 var score = 0;
 
-var block = getElementById('block')
+var block = document.getElementById('block')
 
-        var stoner = getElementById('stoner')
+        var stoner = document.getElementById('stoner')
         
 
 function addToScore(amount){
@@ -24,7 +24,7 @@ function addToScore(amount){
 }
 
 function nextBlock(){
-    if (score==50)
+    if (score==50){
     stoner.style.display = 'flex';
-block.style.display = 'none';
+block.style.display = 'none';}
 }
