@@ -88,12 +88,12 @@ h1{
 #wooden{
     display:none;
     position:absolute;
-    height:450px;
+    height:500px;
     width:500px;
-    left:750px;
+    left:730px;
 }
 
 #block{
-    height:450px;
-    width:450px;
+    height:520px;
+    width:520px;
 }
