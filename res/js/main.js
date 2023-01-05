@@ -24,6 +24,7 @@ function addToScore(amount){
     score = score + amount;
     document.getElementById('score').innerHTML = score;
     if (score==200){
+        wooden.style.display = "none";
         stoner.style.display = 'flex';
     block.style.display = 'none';}
 
