@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+ background: url(../img/garden1.jpg);
+    background-position: center;
+    background-size: cover;}
 body{
     min-height: 100vh;
     display: flex;
@@ -12,7 +16,6 @@ body{
     background-position: center;
     background-size: cover;
     user-select: none;
-    background:no-repeat;
 }
 .back-frem{
     width: 18rem;
