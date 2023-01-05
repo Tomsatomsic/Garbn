@@ -23,11 +23,11 @@ var wood = document.getElementById('wooden')
 function addToScore(amount){
     score = score + amount;
     document.getElementById('score').innerHTML = score;
-    if (score==300){
+    if (score==700){
         stoner.style.display = 'flex';
     block.style.display = 'none';}
 
-    else if (score==700){
+    else if (score==300){
         wood.style.display = 'flex';
         stoner.style.display = 'none';
     block.style.display = 'none';}
