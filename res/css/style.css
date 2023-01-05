@@ -12,6 +12,7 @@ body{
     background-position: center;
     background-size: cover;
     user-select: none;
+    background:no-repeat;
 }
 .back-frem{
     width: 18rem;
@@ -57,7 +58,7 @@ body{
 p{
     border-style:solid;
     border-color:black;
-    width:240px;
+    width:255px;
     height:50px;
 background-color:lightgreen;
 position:absolute;
