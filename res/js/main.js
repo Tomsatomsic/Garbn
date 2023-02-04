@@ -18,12 +18,12 @@ var block = document.getElementById('block')
 var stoner = document.getElementById('stoner')
 
 var wood = document.getElementById('wooden')
-        
+var iron = document.getElementById('iron')        
 
 function addToScore(amount){
     score = score + amount;
     document.getElementById('score').innerHTML = score;
-    if (score==600){
+    if (score==500){
         wood.style.display = "none";
         stoner.style.display = 'flex';
     block.style.display = 'none';}
@@ -32,6 +32,13 @@ function addToScore(amount){
         wood.style.display = 'flex';
         stoner.style.display = 'none';
     block.style.display = 'none';}
+
+}
+else if (score==700){
+        wood.style.display = 'none';
+        stoner.style.display = 'none';
+    block.style.display = 'none';
+iron.style.display='none';}
 
 }
 
