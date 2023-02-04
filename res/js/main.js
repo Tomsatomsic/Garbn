@@ -38,7 +38,7 @@ else if (score==700){
         wood.style.display = 'none';
         stoner.style.display = 'none';
     block.style.display = 'none';
-iron.style.display='none';}
+iron.style.display='flex';}
 
 }
 
