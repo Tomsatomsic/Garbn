@@ -97,3 +97,9 @@ h1{
     height:520px;
     width:520px;
 }
+#iron{
+display:none;
+position:absolute;
+width:500px;
+height:500px;
+left:700px;}
