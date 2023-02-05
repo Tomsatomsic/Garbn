@@ -23,20 +23,23 @@ var iron = document.getElementById('iron')
 function addToScore(amount){
     score = score + amount;
     document.getElementById('score').innerHTML = score;
-    if (score==500){
+    if (score==300){
         wood.style.display = "none";
         stoner.style.display = 'flex';
-    block.style.display = 'none';}
+    block.style.display = 'none';
+    iron.style.display = 'none';}
 
-    else if (score==300){
+    else if (score==150){
         wood.style.display = 'flex';
         stoner.style.display = 'none';
-    block.style.display = 'none';}
-else if (score==700){
+    block.style.display = 'none';
+    iron.style.display = 'none';}
+else if (score==400){
         wood.style.display = 'none';
         stoner.style.display = 'none';
-    block.style.display = 'none';
-iron.style.display='flex';}
+       block.style.display = 'none';
+       iron.style.display='flex';
+}
 }
 
 
